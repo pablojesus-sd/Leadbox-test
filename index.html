@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leadbox | Test de desarrollo frontend</title>
+    <meta name="description" content="A Frontend Developer Test for Leadbox">
+    <meta name="author" content="Pablo Jesus Software Developer | www.pablojesus.com">
+
+    <meta property="og:title" content="Leadbox | A Frontend Developer Test by Pablo Jesus">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="/">
+    <meta property="og:description" content="A Frontend Developer Test for Leadbox">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    
+</head>
+<body>
+    <header class="shadow-md">
+        <div class="container mx-auto">
+            <div class="navbar flex justify-between">
+                <div class="logo">
+                    <a href="#">
+                        <img src="assets/img/logo.svg" width="150" alt="Logo">
+                    </a>
+                </div>
+                <nav id="main_nav" class="">
+                    <div class="dropdown">
+                        <label class="dropbtn">New</label>
+                        <div class="dropdown-content md:shadow-lg md:mr-auto">
+                          <a href="#">New Vehicle Inventory</a>
+                          <a href="#">2023 Ford Lightning</a>
+                          <a href="#">2023 Ford Bronco</a>
+                          <a href="#">New Vehicle Specials</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <label class="dropbtn">Used</label>
+                        <div class="dropdown-content md:shadow-lg md:mr-auto">
+                          <a href="#">Lorem ipsum dolor</a>
+                          <a href="#">Mauris sodales elit </a>
+                          <a href="#">Etiam fermentum nunc sit amet</a>
+                          <a href="#">Cras semper purus vitae</a>
+                          <a href="#">Quisque sollicitudin justo sit</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <label class="dropbtn">Service</label>
+                        <div class="dropdown-content md:shadow-lg md:mr-auto">
+                          <a href="#">Donec vitae lectus at magna</a>
+                          <a href="#">Nam ultrices felis nec</a>
+                          <a href="#">Nullam at nibh rutrum</a>
+                        </div>
+                    </div>
+                    <div class="dropdown md:hidden lg:block">
+                        <label class="dropbtn">Parts</label>
+                        <div class="dropdown-content md:shadow-lg md:mr-auto">
+                          <a href="#">Donec vitae lectus at magna</a>
+                          <a href="#">Nam ultrices felis nec</a>
+                          <a href="#">Nullam at nibh rutrum</a>
+                        </div>
+                    </div>
+                    <a class="smooth-link" href="#aboutus">About</a>
+                </nav>
+                <div class="icons-actions">
+                    <div class="icon-search">
+                        <img src="assets/img/icon-search.svg" alt="Search">
+                    </div>
+                    <div class="icon-menu">
+                        <div class="toggle_menu" id="toggle_menu">
+                            <span class="toggle_menu__bar"></span>
+                            <span class="toggle_menu__bar"></span>
+                            <span class="toggle_menu__bar"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="section hero-slider">
+        <div><img src="assets/img/hero-1.jpg" alt="Hero1"></div>
+        <div><img src="assets/img/hero-2.jpg" alt="Hero1"></div>
+        <div><img src="assets/img/hero-3.jpg" alt="Hero1"></div>
+    </div>
+    <section class="featured">
+        <div class="container mx-auto">
+            <h2 class="text-center uppercase text-4xl font-bold">Featured Vehicles</h2>
+            <div class="featured-slider">
+                <div class="featured-vehicle">
+                    <div class="title font-bold text-base">
+                        2016 Tesla Model X P90D Ludicrous
+                    </div>
+                    <img class="mx-0 w-full" src="assets/img/featured-1.jpg" alt="Tesla">
+                    <div class="tag text-base uppercase text-white font-bold">
+                        Sold
+                    </div>
+                </div>
+                <div class="featured-vehicle">
+                    <div class="title font-bold text-base">
+                        2016 Tesla Model X P90D Ludicrous
+                    </div>
+                    <img class="mx-0 w-full" src="assets/img/featured-2.jpg" alt="Tesla">
+                    <div class="tag text-base uppercase text-white font-bold">
+                        Sold
+                    </div>
+                </div>
+                <div class="featured-vehicle">
+                    <div class="title font-bold text-base">
+                        2016 Tesla Model X P90D Ludicrous
+                    </div>
+                    <img class="mx-0 w-full" src="assets/img/featured-3.jpg" alt="Tesla">
+                    <div class="tag text-base uppercase text-white font-bold">
+                        Sold
+                    </div>
+                </div>
+                <div class="featured-vehicle">
+                    <div class="title font-bold text-base">
+                        2016 Tesla Model X P90D Ludicrous
+                    </div>
+                    <img class="mx-0 w-full" src="assets/img/featured-4.jpg" alt="Tesla">
+                    <div class="tag text-base uppercase text-white font-bold">
+                        Sold
+                    </div>
+                </div>
+                <div class="featured-vehicle">
+                    <div class="title font-bold text-base">
+                        2016 Tesla Model X P90D Ludicrous
+                    </div>
+                    <img class="mx-0 w-full" src="assets/img/featured-5.jpg" alt="Tesla">
+                    <div class="tag text-base uppercase text-white font-bold">
+                        Sold
+                    </div>
+                </div>
+                <div class="featured-vehicle">
+                    <div class="title font-bold text-base">
+                        2016 Tesla Model X P90D Ludicrous
+                    </div>
+                    <img class="mx-0 w-full" src="assets/img/featured-6.jpg" alt="Tesla">
+                    <div class="tag text-base uppercase text-white font-bold">
+                        Sold
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="articles">
+        <div class="container mx-auto flex flex-col md:flex-row">
+            <div class="article">
+                <div class="photo">
+                    <img src="assets/img/article-1.jpg" alt="Article 1">
+                    <div class="border-one"></div>
+                    <div class="border-two"></div>
+                </div>
+                <div class="content px-2.5 md:px-0">
+                    <h3 class="text-2xl text-md:text-4xl lg:text-3xl xl:text-4xl font-bold my-1">Proin in lorem tortor</h3>
+                    <p class="text text-sm ">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porta est a est rutrum ultricies. Etiam placerat id dui eget vestibulum. Praesent aliquam magna nunc, sit amet facilisis ante elementum quis. Curabitur tincidunt neque libero, at pretium nulla mattis ac. Morbi auctor lacus lectus, eget facilisis urna commodo sit amet.
+                    </p>
+                </div>
+            </div>
+            <div class="article">
+                <div class="photo">
+                    <img src="assets/img/article-2.jpg" alt="Article 1">
+                    <div class="border-one"></div>
+                    <div class="border-two"></div>
+                </div>
+                <div class="content px-2.5 md:px-0">
+                    <h3 class="text-2xl text-md:text-4xl lg:text-3xl xl:text-4xl font-bold my-1">Proin in lorem tortor</h3>
+                    <p class="text text-sm ">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porta est a est rutrum ultricies. Etiam placerat id dui eget vestibulum. Praesent aliquam magna nunc, sit amet facilisis ante elementum quis. Curabitur tincidunt neque libero, at pretium nulla mattis ac. Morbi auctor lacus lectus, eget facilisis urna commodo sit amet.
+                    </p>
+                </div>
+            </div>
+            <div class="article md:hidden lg:block">
+                <div class="photo">
+                    <img src="assets/img/article-3.jpg" alt="Article 1">
+                    <div class="border-one"></div>
+                    <div class="border-two"></div>
+                </div>
+                <div class="content px-2.5 md:px-0">
+                    <h3 class="text-2xl text-md:text-4xl lg:text-3xl xl:text-4xl font-bold my-1">Proin in lorem tortor</h3>
+                    <p class="text text-sm ">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porta est a est rutrum ultricies. Etiam placerat id dui eget vestibulum. Praesent aliquam magna nunc, sit amet facilisis ante elementum quis. Curabitur tincidunt neque libero, at pretium nulla mattis ac. Morbi auctor lacus lectus, eget facilisis urna commodo sit amet.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="about" id="aboutus">
+        <div class="container mx-auto flex flex-col md:flex-row">
+            <div class="content w-full md:w-8/12 text-white md:ml-auto">
+                <h2 class="text-white text-center uppercase text-4xl font-bold my-5">About Us</h2>
+                <p class="text text-sm md:text-xs lg:text-sm">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vel quam nec metus pellentesque iaculis. Cras lobortis odio a nulla condimentum blandit. Donec laoreet euismod diam, in lobortis odio tincidunt in. 
+                    <br><br>
+                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vivamus eleifend, metus ut rutrum dignissim, erat diam pulvinar urna, laoreet convallis odio lorem at elit. Morbi iaculis metus et vestibulum commodo. Etiam lectus augue, congue vitae vestibulum sit amet, mattis finibus nulla. Duis dictum condimentum viverra. Curabitur cursus, nisi sit amet maximus imperdiet, odio augue tincidunt neque, nec condimentum lectus enim at est. Praesent accumsan sed quam id rutrum. Quisque quis turpis eget ex euismod fermentum. Fusce id nisi lacus. Vestibulum et aliquet purus.
+                </p>
+            </div>
+            <img class="about-img" src="assets/img/about-img.png" alt="About">
+            
+        </div>
+    </section>
+
+    <footer>
+        <div class="container mx-auto flex flex-col md:flex-row">
+            <div class="widget widget-1 text-center md:basis-1/3 order-1">
+                <img class="logo-negative mx-auto mb-10 md:hidden" src="assets/img/logo-white.svg" alt="">
+                <div class="info">
+                    <p class="text-center md:text-left mx-auto text-white text-sm my-5 md:mt-0">number street, city, province, postal code</p>
+                    <p class="text-center md:text-left mx-auto text-white text-sm my-5">Sales: <a href='tel:9081234567' class="phonenumber-link">(908) 123-4567</a></p>
+                    <p class="text-center md:text-left mx-auto text-white text-sm my-5">Parts: <a href='tel:9087776655' class="phonenumber-link">(908) 777-6655</a></p>
+                    <p class="text-center md:text-left mx-auto text-white text-sm my-5">Service: <a href='tel:9083456789' class="phonenumber-link">(908) 345-6789</a></p>
+                </div>
+            </div>
+            <div class="widget widget-2 md:basis-1/3 order-2 md:order-3"> 
+                <select class="select-departaments text-sm font-medium w-full mt-5 md:mt-0" id="select-departaments" name="ddProducts"> 
+                    <option value="SAL">SALES</option>
+                    <option value="SER">SERVICES</option>
+                    <option value="PAR">PARTS</option>
+                </select>
+                <div id="infoSales" class="departament-info flex-row flex-wrap text-white text-sm my-2 show">
+                    <p class="basis-1/2">Monday:  <br class="hidden md:inline-block xl:hidden">8:00am-8:00pm</p>
+                    <p class="basis-1/2">Thursday: <br class="hidden md:inline-block xl:hidden">8:00am-8:00pm</p>
+                    <p class="basis-1/2">Tuesday: <br class="hidden md:inline-block xl:hidden">8:00am-8:00pm</p>
+                    <p class="basis-1/2">Friday: <br class="hidden md:inline-block xl:hidden">8:00am-8:00pm</p>
+                    <p class="basis-1/2">Wednesday: <br class="hidden md:inline-block xl:hidden">8:00am-8:00pm</p>
+                    <p class="basis-1/2">Saturday: <br class="hidden md:inline-block xl:hidden">8:00am-5:00pm</p>
+                    <p class="basis-1/2">Sunday: <br class="hidden md:inline-block xl:hidden">Closed</p>
+                </div>
+                <div id="infoServices" class="departament-info flex-row flex-wrap text-white text-sm my-2">
+                    <p class="basis-1/2">Monday: <br class="hidden md:inline-block xl:hidden">10:00am-11:00pm</p>
+                    <p class="basis-1/2">Thursday: <br class="hidden md:inline-block xl:hidden">8:00am-11:00pm</p>
+                    <p class="basis-1/2">Tuesday: <br class="hidden md:inline-block xl:hidden">8:00am-11:00pm</p>
+                    <p class="basis-1/2">Friday: <br class="hidden md:inline-block xl:hidden">8:00am-11:00pm</p>
+                    <p class="basis-1/2">Wednesday: <br class="hidden md:inline-block xl:hidden">8:00am-11:00pm</p>
+                    <p class="basis-1/2">Saturday: <br class="hidden md:inline-block xl:hidden">8:00am-12:00pm</p>
+                    <p class="basis-1/2">Sunday: <br class="hidden md:inline-block xl:hidden">Closed</p>
+                </div>
+                <div id="infoParts" class="departament-info flex-row flex-wrap text-white text-sm my-2">
+                    <p class="basis-1/2">Monday: <br class="hidden md:inline-block xl:hidden">8:00am-7:00pm</p>
+                    <p class="basis-1/2">Thursday: <br class="hidden md:inline-block xl:hidden">8:00am-7:00pm</p>
+                    <p class="basis-1/2">Tuesday: <br class="hidden md:inline-block xl:hidden">8:00am-7:00pm</p>
+                    <p class="basis-1/2">Friday: <br class="hidden md:inline-block xl:hidden">8:00am-7:00pm</p>
+                    <p class="basis-1/2">Wednesday: <br class="hidden md:inline-block xl:hidden">8:00am-6:00pm</p>
+                    <p class="basis-1/2">Saturday: <br class="hidden md:inline-block xl:hidden">Closed</p>
+                    <p class="basis-1/2">Sunday: <br class="hidden md:inline-block xl:hidden">Closed</p>
+                </div>
+            </div>
+            <div class="widget widget-3 text-center md:basis-1/3 order-3 md:order-2">
+                <img class="logo-negative mx-auto mb-10 hidden md:block" src="assets/img/logo-white.svg" alt="">
+                
+                <div class="social-links flex flex-row text-white justify-center my-10">
+                    <a class="social-link" href="https://www.facebook.com/" target="_blank">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a class="social-link" href="https://www.twitter.com/" target="_blank">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a class="social-link" href="https://www.youtube.com/" target="_blank">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                    <a class="social-link" href="https://www.instagram.com/" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a class="social-link" href="https://www.pinterest.com/" target="_blank">
+                        <i class="fa-brands fa-pinterest-p"></i>
+                    </a>
+                    <a class="social-link" href="https://www.linkedin.com/in/pablojesus/" target="_blank">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+                <div class="misc-links text-white text-xs">
+                    <a href="#" class="misc-link">Sitemap</a> | <a href="#" class="misc-link">Terms and Conditions</a> | <a href="#" class="misc-link">Privacy Policy</a> | <br><a class="misc-link">Dealership © 2022</a> | <a href="https://leadboxhq.com/" class="misc-link" target="_blank">Powered by Leadbox</a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="assets/js/index.js"></script> 
+</body>
+</html>
