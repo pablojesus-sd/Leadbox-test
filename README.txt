@@ -26,7 +26,9 @@ Google Fonts para las tipografías.
 
 Instrucciones. 
 
-Copiar los archivos en una carpeta y ejecutar el archivo index.html en un navegador. Recordar tener conexión a Internet.
+Copiar los archivos en una carpeta dentro de un servidor web, ejemplo un servidor de apache. 
+Abrir en el navegador la url local asignada. 
+Recuerde que debe tener conexión a internet para que se carguen las librerias. 
 
 Cualquier duda, pueden escribir a mi correo. 
 
